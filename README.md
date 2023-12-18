@@ -1,8 +1,10 @@
 # CCM-Implementation-In-C
 Counter Mode with CBC-MAC (CCM) Implementation in C
 
-The project discussed in this paper is the implementation of the CCM algorithm in C.
-Particularly replicating the steps of sending a message modified by CCM and receiving it via two
+This project is the implementation of the CCM algorithm in C. Originally, this project was for an independent
+study course in Cybersecurity.
+
+More specifically, this project includes replicating the steps of sending a message modified by CCM and receiving it via two
 mock applications: consumer.c and producer.c. This is possible by including the module ccm.c
 during the compilation of both applications. The CCM module is responsible for providing
 methods to construct and send the CCM messages as well as to receive and deconstruct those
